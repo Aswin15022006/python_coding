@@ -1,5 +1,5 @@
 word=input("enter the string")
-a="aeiouAeiou"
+a="aeiouAEIOU"
 ans=" "
 for i in word:
     if(i not in a):
